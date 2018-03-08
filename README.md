@@ -8,3 +8,36 @@ optimize baidumap Markercluster.js
 # 效果图
 baidumap_markercluster_optimize/markerclusterer.gif
 ![img](https://github.com/leafsu3340/baidumap_markercluster_optimize/blob/master/markerclusterer.gif)
+# example
+使用：bdmap初始化 -> 执行'MarkerClusterer_optimize.js' -> 执行'TextIconOverlay_min.js' -> 自定义TextIconOverlay方法
+```
+// 自定义TextIconOverlay样式方法
+ BMapLib.TextIconOverlay.prototype.setText = function (text, flag) {
+   if (
+     text &&
+     (!this._text || this._text.toString() != text.toString())
+   ) {
+     this._text = text;
+     this._updateText();
+     this._updateCss(flag);
+     this._updatePosition();
+   }
+ };
+
+ BMapLib.TextIconOverlay.prototype.getStyleByText = function (
+   text,
+   styles,
+   flag
+ ) {
+   if (flag) {
+     return styles[1];
+   }
+
+   return styles[0];
+ };
+
+ BMapLib.TextIconOverlay.prototype._updateCss = function (flag) {
+   const style = this.getStyleByText(this._text, this._styles, flag);
+   this._domElement.style.cssText = this._buildCssText(style);
+ };
+   ```
