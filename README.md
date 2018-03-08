@@ -7,4 +7,4 @@ optimize baidumap Markercluster.js
  - setSearchMarkers：用于判断聚合点是否高亮的目标marker数组;
 # 效果图
 baidumap_markercluster_optimize/markerclusterer.gif
-![img](https://github.com/leafsu3340/baidumap_markercluster_optimize/markerclusterer.gif)
+![img](https://github.com/leafsu3340/baidumap_markercluster_optimize/blob/master/markerclusterer.gif)
