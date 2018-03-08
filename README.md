@@ -1,0 +1,2 @@
+# baidumap_markercluster_optimize
+optimize baidumap Markercluster.js
