@@ -9,8 +9,8 @@ optimize baidumap Markercluster.js
 baidumap_markercluster_optimize/markerclusterer.gif
 ![img](https://github.com/leafsu3340/baidumap_markercluster_optimize/blob/master/markerclusterer.gif)
 # Link
-[BMapLib.TextIconOverlay Api](http://api.map.baidu.com/library/TextIconOverlay/1.2/docs/symbols/BMapLib.TextIconOverlay.html)
-[BMapLib.MarkerClusterer Api](http://api.map.baidu.com/library/MarkerClusterer/1.2/docs/symbols/BMapLib.MarkerClusterer.html)
+## [BMapLib.TextIconOverlay Api](http://api.map.baidu.com/library/TextIconOverlay/1.2/docs/symbols/BMapLib.TextIconOverlay.html)
+## [BMapLib.MarkerClusterer Api](http://api.map.baidu.com/library/MarkerClusterer/1.2/docs/symbols/BMapLib.MarkerClusterer.html)
 # Example
 使用：bdmap初始化 -> 执行'MarkerClusterer_optimize.js' -> 执行'TextIconOverlay_min.js' -> 自定义TextIconOverlay方法
 ```
