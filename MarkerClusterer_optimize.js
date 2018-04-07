@@ -7,7 +7,7 @@
  *   getClusters：获取所有的聚合标识实例；
  *   setSearchMarkers：用于判断聚合点是否高亮的目标marker数组;
  * @date   2018-3-8
- * @author dengxiaodong<dengxiaodong@ygsoft.com>
+ * @author dengxiaodong<leafgeek@foxmail.com>
  */
 
  
