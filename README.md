@@ -44,3 +44,4 @@ baidumap_markercluster_optimize/markerclusterer.gif
    this._domElement.style.cssText = this._buildCssText(style);
  };
    ```
+test
